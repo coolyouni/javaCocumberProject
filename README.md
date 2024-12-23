@@ -22,7 +22,7 @@ git push -uf origin main
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](url/-/settings/integrations)
+- [ ] [Set up project integrations](http://192.168.12.10/qa/ar_automation/-/settings/integrations)
 
 ## Collaborate with your team
 
@@ -45,47 +45,47 @@ Use the built-in continuous integration in GitLab.
 ***
 
 ## Name
-A robust Test Automation Project
+AR Automation Project
 
 ## Description
-Automation Project is designed for UI automating test cases using Cucumber, TestNG, and Selenium WebDriver. This framework supports structured testing with separate modules for utilities, page classes, step definitions, listeners, and test runners. The project is aimed at streamlining the testing process for web applications, providing a robust and maintainable solution for automated testing.
+The AR Automation Project is designed for UI automating test cases using Cucumber, TestNG, and Selenium WebDriver. This framework supports structured testing with separate modules for utilities, page classes, step definitions, listeners, and test runners. The project is aimed at streamlining the testing process for web applications, providing a robust and maintainable solution for automated testing.
 
 ## Guidelin and Rule
 This repository is designed for automating test cases using Cucumber with TestNG and Selenium WebDriver. The project follows a modular structure, with separate folders for utilities, page classes, step definitions, listeners, and test runners.
 
 ```
 AR_Automation
-â”œâ”€â”€ .idea
-â”œâ”€â”€ logs
-â”œâ”€â”€ screenshots
-â”œâ”€â”€ src
-â”‚   â”œâ”€â”€ main
-â”‚   â”‚   â”œâ”€â”€ java
-â”‚   â”‚   â”‚   â”œâ”€â”€ commonUtils
-â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ Config.java
-â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ DriverUtil.java
-â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ ScreenshotUtil.java
-â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ TestData.java
-â”‚   â”‚   â”‚   â”‚   â””â”€â”€ WaitUtil.java
-â”‚   â”‚   â”‚   â”œâ”€â”€ pageClass
-â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ BasePage.java
-â”‚   â”‚   â”‚   â”‚   â””â”€â”€ RegistrationPage.java
-â”‚   â”‚   â””â”€â”€ resources
-â”‚   â”‚       â””â”€â”€ log4j2.xml
-â”‚   â”œâ”€â”€ test
-â”‚   â”‚   â”œâ”€â”€ java
-â”‚   â”‚   â”‚   â”œâ”€â”€ listeners
-â”‚   â”‚   â”‚   â”‚   â””â”€â”€ TestListener.java
-â”‚   â”‚   â”‚   â”œâ”€â”€ runners
-â”‚   â”‚   â”‚   â”‚   â””â”€â”€ TestRunner.java
-â”‚   â”‚   â”‚   â””â”€â”€ stepDefinitions
-â”‚   â”‚   â”‚       â”œâ”€â”€ Hooks.java
-â”‚   â”‚   â”‚       â””â”€â”€ RegistrationStepDefinitions.java
-â”‚   â”‚   â””â”€â”€ resources
-â”‚   â”‚       â””â”€â”€ features
-â”‚   â”‚           â””â”€â”€ Registration.feature
-â””â”€â”€ target
-â””â”€â”€ test-output
+├── .idea
+├── logs
+├── screenshots
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   ├── commonUtils
+│   │   │   │   ├── Config.java
+│   │   │   │   ├── DriverUtil.java
+│   │   │   │   ├── ScreenshotUtil.java
+│   │   │   │   ├── TestData.java
+│   │   │   │   └── WaitUtil.java
+│   │   │   ├── pageClass
+│   │   │   │   ├── BasePage.java
+│   │   │   │   └── RegistrationPage.java
+│   │   └── resources
+│   │       └── log4j2.xml
+│   ├── test
+│   │   ├── java
+│   │   │   ├── listeners
+│   │   │   │   └── TestListener.java
+│   │   │   ├── runners
+│   │   │   │   └── TestRunner.java
+│   │   │   └── stepDefinitions
+│   │   │       ├── Hooks.java
+│   │   │       └── RegistrationStepDefinitions.java
+│   │   └── resources
+│   │       └── features
+│   │           └── Registration.feature
+└── target
+└── test-output
 ```
 
 
