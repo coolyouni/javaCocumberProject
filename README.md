@@ -1,4 +1,4 @@
-# AR_Automation
+# Selenium Cocumber BDD
 
 
 
@@ -15,14 +15,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin http://192.168.12.10/qa/ar_automation.git
+git remote add origin .....
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](http://192.168.12.10/qa/ar_automation/-/settings/integrations)
+- [ ] [Set up project integrations]
 
 ## Collaborate with your team
 
@@ -45,16 +45,16 @@ Use the built-in continuous integration in GitLab.
 ***
 
 ## Name
-AR Automation Project
+Selenium UI Automation Project in BDD (Cocumber)
 
 ## Description
-The AR Automation Project is designed for UI automating test cases using Cucumber, TestNG, and Selenium WebDriver. This framework supports structured testing with separate modules for utilities, page classes, step definitions, listeners, and test runners. The project is aimed at streamlining the testing process for web applications, providing a robust and maintainable solution for automated testing.
+The UI Automation Project is designed for UI automating test cases using Cucumber, TestNG, and Selenium WebDriver. This framework supports structured testing with separate modules for utilities, page classes, step definitions, listeners, and test runners. The project is aimed at streamlining the testing process for web applications, providing a robust and maintainable solution for automated testing.
 
 ## Guidelin and Rule
 This repository is designed for automating test cases using Cucumber with TestNG and Selenium WebDriver. The project follows a modular structure, with separate folders for utilities, page classes, step definitions, listeners, and test runners.
 
 ```
-AR_Automation
+UI_Automation
 ├── .idea
 ├── logs
 ├── screenshots
@@ -101,8 +101,8 @@ AR_Automation
 
 ## Installation
 
-`git clone http://192.168.12.10/qa/ar_automation/`
-`cd AR_Automation`
+`git clone url
+`cd project name`
 
 ##  Install dependencies with Maven
 `mvn clean install`
@@ -179,7 +179,6 @@ Implements TestNG listeners for logging, reporting, and taking screenshots on te
 
 - Contains Gherkin syntax for defining test scenarios. This example includes a scenario for corporate registration.
 - Each scenario maps to step definitions in RegistrationStepDefinitions.java.
-
 
 ## Usage Guidelines
 
